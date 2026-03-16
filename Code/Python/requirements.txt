@@ -1,0 +1,33 @@
+pandas==1.5.3
+numpy==1.26.4
+python-dateutil==2.9.0.post0
+pytz==2024.1
+requests==2.32.3
+openpyxl==3.1.2
+python-docx==1.1.0
+matplotlib==3.8.2
+spyder-kernels==2.5.2
+docx2pdf
+PyPDF2
+pypdf
+zeep
+dask
+reportlab
+scipy==1.10.1
+
+# Geospatial stuff
+geopandas>=0.14
+shapely>=2.0
+fiona>=1.9		# Dependency of geopandas, for reading/writing spatial files or converting features
+pyproj>=3.6
+rtree>=1.0.1          # optional but recommended for faster spatial indexing
+
+# Mapping & rendering
+matplotlib>=3.8
+cartopy>=0.22
+Pillow>=10.0          # provides PIL.Image (opening and saving images)
+
+# Document generation 
+python-docx>=0.8.11
+docx2pdf>=0.1.8
+comtypes>=1.1.14      # Windows-only requirement for docx2pdf COM automation
