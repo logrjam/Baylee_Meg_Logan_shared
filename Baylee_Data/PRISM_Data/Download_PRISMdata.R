@@ -1,3 +1,4 @@
+# Updated (2025) Code to download PRISM data _ OSU changed from .bil to GeoTIFF
 # Download PRISM Precip data for Weber Catchments: CC, OSF, WO
 # Baylee Olds 10/24/24 
 # Based on Extract_PRISM_Jordan_precipitation.R by Logan Jamison_edited meg wolf
