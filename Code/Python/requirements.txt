@@ -25,6 +25,7 @@ rtree>=1.0.1          # optional but recommended for faster spatial indexing
 
 # Mapping & rendering
 matplotlib>=3.8
+seaborn
 cartopy>=0.22
 Pillow>=10.0          # provides PIL.Image (opening and saving images)
 

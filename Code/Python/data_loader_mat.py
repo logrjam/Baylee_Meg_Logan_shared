@@ -11,4 +11,10 @@ from scipy.io import loadmat
 
 rootpath = "C:/USDA/Work/Code/GitHub/Baylee_Meg_Logan_shared"
 
-data = loadmat(rootpath + "/Data/LoganUpdatedMeltMetrics/allmeltrate.mat")
+rootpath_2 = r"C:\USDA\Work\Code\GitHub\Baylee_Meg_Logan_shared\Data\fwairtempdata"
+
+data = loadmat(rootpath + "/Data/SLCandWEBER/allAprT.mat")
+
+data_2 = loadmat(rootpath_2 + "/allAprT.mat")
+
+equality = data["allAprT"] == data_2["allAprT"]
